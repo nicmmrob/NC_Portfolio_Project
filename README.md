@@ -67,8 +67,8 @@ Throughout this project, I utilized several tools including: postgres, docker, p
 
 
 
-I implemented POST, GET, PUT, and DELETE. I had two files, one for customers and the other for plants. I have a POST statement to create a new plant in the database, GET a plant by ID, PUT which is to update the price of a plant, and DELETE a plant altogether.
+Within the project, I implemented POST, GET, PUT, and DELETE. I have two .py files--one for "customers" and the other for "plants." I have a POST statement to create a new plant in the database, GET a plant by ID, PUT which is to update the price of a plant, and DELETE a plant altogether.
 Most of the same is true for customers, except you can update first and last name.
-I could implement much more features like listing out the number of plants, changing the email for the customer, etc.
+I could implement many more features like listing out the number of plants, changing the email for the customer, etc.
 
-For thsi project, I chose to go with utilizing an ORM. I really wanted to get more familiar with the process and it was easier for me to duplicate steps from the NC workshop and really get to know the "why."
+For this project, I wanted to practice utilizing an ORM. I really wanted to get more familiar with the process and it was easier for me to duplicate steps from the NC workshop and really get to know the "why."
