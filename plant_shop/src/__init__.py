@@ -9,7 +9,7 @@ def create_app(test_config=None):
     app = Flask(__name__, instance_relative_config=True)
     app.config.from_mapping(
         SECRET_KEY='dev',
-        SQLALCHEMY_DATABASE_URI='postgresql://postgres@localhost:5432/plant_shop',
+        SQLALCHEMY_DATABASE_URI='postgres://hbuppbrssflnpu:0864babc2c22356d00c3b7ecc10cc51144e19593cd6c59c69b795aff54022fe4@ec2-52-21-136-176.compute-1.amazonaws.com:5432/dd4k0rij05bmum',
         SQLALCHEMY_TRACK_MODIFICATIONS=False,
         SQLALCHEMY_ECHO=True
     )

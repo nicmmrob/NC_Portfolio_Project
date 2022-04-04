@@ -5,7 +5,7 @@ bp = Blueprint('plants', __name__, url_prefix='/plants')
 
 
 @bp.route('', methods=['GET'])  # decorator takes path and list of HTTP verbs
-def index():
+def index_plants():
     plants = Plant.query.all()  # ORM performs SELECT query
     result = []
     for p in plants:

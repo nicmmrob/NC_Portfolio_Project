@@ -4,12 +4,12 @@ services:
     image: postgres:12.2
     restart: always
     environment:
-      POSTGRES_DB: postgres
-      POSTGRES_USER: admin
-      POSTGRES_HOST_AUTH_METHOD: trust
-      PGDATA: /var/lib/postgresql/data
-    volumes:
-      - "${PWD}/data/initdb/:/docker-entrypoint-initdb.d/"
+      PGHOST: ec2-52-21-136-176.compute-1.amazonaws.com
+      POSTGRES_DB: dd4k0rij05bmum
+      PGUSER: hbuppbrssflnpu
+      PGPASSWORD: 0864babc2c22356d00c3b7ecc10cc51144e19593cd6c59c69b795aff54022fe4
+    #volumes:
+    #  - "${PWD}/data/initdb/:/docker-entrypoint-initdb.d/"
     ports:
       - "5432:5432"
 
